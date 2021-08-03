@@ -8,3 +8,6 @@
 └── extension    为基础扩展代 (基础通用层插件化)
 └── application    业务应用扩展 (应用层插件化)
 ```
+
+### 用例
+https://github.com/qzsang/mini-promotion/blob/master/src/test/java/case1/PromotionApplicationTests.java
