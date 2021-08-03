@@ -11,3 +11,6 @@
 
 ### 用例
 https://github.com/qzsang/mini-promotion/blob/master/src/test/java/case1/PromotionApplicationTests.java
+
+### PPT
+https://github.com/qzsang/mini-promotion/blob/master/doc/%E4%BB%8E%E4%BF%83%E9%94%80%E5%BC%95%E6%93%8E%E5%88%B0%E5%BE%AE%E5%86%85%E6%A0%B8%E6%9E%B6%E6%9E%84%E5%88%86%E4%BA%AB.pptx
