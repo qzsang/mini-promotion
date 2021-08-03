@@ -1,8 +1,8 @@
 package org.example.promotion.extension.bill;
 
-import org.example.promotion.Action;
-import org.example.promotion.Condition;
-import org.example.promotion.PromotionBill;
+import org.example.promotion.core.Action;
+import org.example.promotion.core.Condition;
+import org.example.promotion.core.PromotionBill;
 
 /**
  * @author qzs

@@ -1,9 +1,8 @@
-package org.example.promotion.impl;
+package org.example.promotion.core.impl;
 
-import org.example.promotion.*;
+import org.example.promotion.core.*;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 /**
@@ -14,6 +13,7 @@ import java.util.List;
 public class EngineImpl implements Engine {
 
 
+    @Override
     public PromotionResult execute(PromotionContext promotionContext, PromotionBill[] promBills, Matcher[] matchers) {
         if (promotionContext == null || promBills == null || promBills.length <= 0 || matchers == null || matchers.length <= 0) {
             return new PromotionResult(false);

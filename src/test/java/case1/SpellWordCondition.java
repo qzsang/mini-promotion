@@ -1,6 +1,6 @@
 package case1;
 
-import org.example.promotion.Condition;
+import org.example.promotion.core.Condition;
 
 /**
  * @author qzs

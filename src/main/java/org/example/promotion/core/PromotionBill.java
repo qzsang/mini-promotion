@@ -1,6 +1,4 @@
-package org.example.promotion;
-
-import java.util.List;
+package org.example.promotion.core;
 
 public interface PromotionBill {
     Condition getCondition();

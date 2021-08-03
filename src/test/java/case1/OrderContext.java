@@ -1,8 +1,7 @@
 package case1;
 
-import org.example.promotion.PromotionContext;
+import org.example.promotion.core.PromotionContext;
 
-import java.io.Serializable;
 import java.util.List;
 
 /**

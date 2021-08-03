@@ -1,6 +1,6 @@
 package case1;
 
-import org.example.promotion.Action;
+import org.example.promotion.core.Action;
 
 import java.math.BigDecimal;
 

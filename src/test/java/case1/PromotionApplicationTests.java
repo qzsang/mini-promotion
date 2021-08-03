@@ -1,10 +1,12 @@
 package case1;
 
-import org.example.promotion.*;
+import org.example.promotion.core.Engine;
+import org.example.promotion.core.Matcher;
+import org.example.promotion.core.PromotionBill;
+import org.example.promotion.core.PromotionResult;
 import org.example.promotion.extension.bill.BasePromotionBill;
-import org.example.promotion.impl.EngineImpl;
+import org.example.promotion.core.impl.EngineImpl;
 import org.junit.jupiter.api.Test;
-
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +26,7 @@ class PromotionApplicationTests {
         SpellWordAction action = new SpellWordAction();
         action.setDiscountRate(BigDecimal.valueOf(0.5));
         // 组装成促销单
+        BasePromotionBill d;
         PromotionBill promotionBill = new BasePromotionBill(condition, action);
         // 创建促销单 End
 
@@ -60,6 +63,5 @@ class PromotionApplicationTests {
                 new Matcher[] {new SpellWordMatcher()});
         System.out.println(promResult);
     }
-
 
 }

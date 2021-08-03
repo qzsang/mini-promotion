@@ -7,7 +7,7 @@
  * 修改历史：
  * 2016年9月23日 - Debenson - 创建。
  */
-package org.example.promotion;
+package org.example.promotion.core;
 
 
 /**

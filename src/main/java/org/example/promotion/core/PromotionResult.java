@@ -1,4 +1,4 @@
-package org.example.promotion;
+package org.example.promotion.core;
 
 import java.util.List;
 
