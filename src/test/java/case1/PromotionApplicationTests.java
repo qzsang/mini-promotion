@@ -3,24 +3,17 @@ package case1;
 import org.example.promotion.application.action.SpellWordAction;
 import org.example.promotion.application.condition.SpellWordCondition;
 import org.example.promotion.application.context.OrderContext;
-import org.example.promotion.application.matcher.SpellWordMatcher;
-import org.example.promotion.core.Matcher;
 import org.example.promotion.core.PromotionBill;
 import org.example.promotion.core.PromotionResult;
 import org.example.promotion.extension.bill.BasePromotionBill;
 import org.example.promotion.extension.condition.CompositeCondition;
 import org.example.promotion.extension.condition.Logical;
-import org.example.promotion.extension.matcher.CompositeMatcher;
 import org.example.promotion.extension.utils.EngineUtil;
-import org.example.promotion.extension.utils.MatcherUtil;
 import org.junit.jupiter.api.Test;
-import org.reflections.Reflections;
 
-import java.lang.reflect.Modifier;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 class PromotionApplicationTests {
 

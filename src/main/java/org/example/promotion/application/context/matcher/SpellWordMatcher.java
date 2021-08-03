@@ -1,4 +1,4 @@
-package org.example.promotion.application.matcher; /**
+package org.example.promotion.application.context.matcher; /**
  * 版权所有(C)，上海勾芒信息科技，2016，所有权利保留。
  * 
  * 项目名：	gomore-promotion
