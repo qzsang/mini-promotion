@@ -1,4 +1,4 @@
-package case1;
+package org.example.promotion.application.action;
 
 import org.example.promotion.core.Action;
 
@@ -25,7 +25,7 @@ public class SpellWordAction implements Action {
 
     @Override
     public String toString() {
-        return "case1.SpellWordAction{" +
+        return "org.example.promotion.application.action.SpellWordAction{" +
                 "discountRate=" + discountRate +
                 '}';
     }

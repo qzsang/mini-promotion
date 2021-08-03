@@ -1,4 +1,4 @@
-package case1;
+package org.example.promotion.application.condition;
 
 import org.example.promotion.core.Condition;
 
@@ -26,7 +26,7 @@ public class SpellWordCondition implements Condition {
 
     @Override
     public String toString() {
-        return "case1.SpellWordCondition{" +
+        return "org.example.promotion.application.condition.SpellWordCondition{" +
                 "word='" + word + '\'' +
                 '}';
     }

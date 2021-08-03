@@ -1,4 +1,4 @@
-package case1;
+package org.example.promotion.application.context;
 
 import org.example.promotion.core.PromotionContext;
 
@@ -44,7 +44,7 @@ public class OrderContext implements PromotionContext {
 
     @Override
     public String toString() {
-        return "case1.OrderContext{" +
+        return "org.example.promotion.application.context.OrderContext{" +
                 "goodsList=" + goodsList +
                 '}';
     }

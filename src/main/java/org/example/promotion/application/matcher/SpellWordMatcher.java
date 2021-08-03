@@ -1,4 +1,4 @@
-package case1; /**
+package org.example.promotion.application.matcher; /**
  * 版权所有(C)，上海勾芒信息科技，2016，所有权利保留。
  * 
  * 项目名：	gomore-promotion
@@ -8,6 +8,8 @@ package case1; /**
  * 2016年11月2日 - Debenson - 创建。
  */
 
+import org.example.promotion.application.condition.SpellWordCondition;
+import org.example.promotion.application.context.OrderContext;
 import org.example.promotion.extension.matcher.BaseMatcher;
 import java.util.List;
 

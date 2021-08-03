@@ -23,7 +23,8 @@ public abstract class BaseMatcher<C extends Condition, P extends PromotionContex
         if (condition == null || promotionContext == null) {
             return false;
         }
-        if (condition.getClass().equals(acceptConditionClass) && promotionContext.getClass().equals(acceptContextClass)) {
+
+        if (condition.getClass().equals(acceptConditionClass) && (acceptContextClass == null || promotionContext.getClass().equals(acceptContextClass))) {
             return true;
         }
         return false;
