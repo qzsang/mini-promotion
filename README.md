@@ -4,7 +4,7 @@
 ### 结构解读
 在org.example.promotion包下
 ```
-└── core    为核心算法包
-└── extension    为官方扩展代码包
-└── application    业务扩展代码包
+└── core    核心功能
+└── extension    为基础扩展代 (基础通用层插件化)
+└── application    业务应用扩展 (应用层插件化)
 ```
