@@ -1,5 +1,8 @@
 # mini-promotion
 简单的高可扩展的促销引擎
+## 背景和期望
+![期望](https://github.com/qzsang/mini-promotion/blob/master/doc/1.png)
+![期望ui](https://github.com/qzsang/mini-promotion/blob/master/doc/2.png)
 
 ### 结构解读
 在org.example.promotion包下
